@@ -12,8 +12,8 @@
     "location": "Hong Kong",
     "email": "kwchungac@connect.ust.hk",
     "photo": {
-      "src": "/images/site-icon.png",
-      "alt": "Chung Ka Wai personal icon"
+      "src": "/images/icon_image.jpeg",
+      "alt": "Chung Ka Wai profile photo"
     },
     "summary": "I am a first-year MPhil student in Computer Science and Engineering at the Hong Kong University of Science and Technology, supervised by Prof. Yangqiu Song. My research focuses on large language models, reasoning tasks, and natural language processing.",
     "summaryRich": [

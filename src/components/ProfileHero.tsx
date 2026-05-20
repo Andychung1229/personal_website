@@ -48,7 +48,7 @@ export function ProfileHero() {
             <img
               src={profile.photo.src}
               alt={profile.photo.alt}
-              className="h-40 w-40 rounded-full border border-slate-900/10 bg-white p-3 object-contain md:h-48 md:w-48"
+              className="h-40 w-40 rounded-full border border-slate-900/10 object-cover md:h-48 md:w-48"
             />
           ) : (
             <div className="flex h-40 w-40 items-center justify-center rounded-full border border-slate-900/10 bg-gradient-to-br from-blue-100 via-white to-teal-100 text-center text-sm font-semibold text-slate-500 md:h-48 md:w-48">
