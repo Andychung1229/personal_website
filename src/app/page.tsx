@@ -1,3 +1,4 @@
+import { AnimatedBackground } from "@/components/AnimatedBackground";
 import { AboutSection } from "@/components/AboutSection";
 import { AnnouncementList } from "@/components/AnnouncementList";
 import { NavBar } from "@/components/NavBar";
@@ -77,12 +78,13 @@ function renderSection(section: (typeof enabledSections)[number]) {
 export default function Home() {
   return (
     <>
+      <AnimatedBackground />
       <NavBar />
-      <main className="mx-auto max-w-6xl px-5">
+      <main className="relative z-10 mx-auto max-w-6xl px-5">
         <ProfileHero />
         {enabledSections.map(renderSection)}
       </main>
-      <footer className="mx-auto max-w-6xl px-5 py-10 text-sm text-slate-500">
+      <footer className="relative z-10 mx-auto max-w-6xl px-5 py-10 text-sm text-slate-500">
         <div className="border-t border-slate-900/10 pt-6">{siteConfig.site.footer}</div>
       </footer>
     </>

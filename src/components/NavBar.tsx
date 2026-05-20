@@ -3,7 +3,7 @@ import { navItems, siteConfig } from "@/data/site";
 
 export function NavBar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-900/10 bg-[#fbfaf6]/82 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-slate-900/10 bg-[#fbfaf6]/72 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
         <Link href="/" className="text-sm font-semibold tracking-wide text-slate-900">
           {siteConfig.site.navTitle}
