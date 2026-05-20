@@ -1,5 +1,5 @@
 import { FileText, Github, GraduationCap, Linkedin, Mail, MapPin } from "lucide-react";
-import { siteConfig, type ProfileLink } from "@/data/site";
+import { siteConfig, type ProfileLink, type RichTextSegment } from "@/data/site";
 
 const profile = siteConfig.profile;
 
@@ -13,6 +13,30 @@ const iconMap = {
 
 function getIcon(link: ProfileLink) {
   return iconMap[(link.icon ?? "file") as keyof typeof iconMap] ?? FileText;
+}
+
+function RichText({ segments, fallback }: { segments?: RichTextSegment[]; fallback: string }) {
+  if (!segments?.length) {
+    return <>{fallback}</>;
+  }
+
+  return (
+    <>
+      {segments.map((segment, index) =>
+        segment.href ? (
+          <a
+            key={`${segment.text}-${index}`}
+            href={segment.href}
+            className="font-medium text-blue-700 underline decoration-blue-700/30 underline-offset-4 transition hover:text-blue-900"
+          >
+            {segment.text}
+          </a>
+        ) : (
+          <span key={`${segment.text}-${index}`}>{segment.text}</span>
+        )
+      )}
+    </>
+  );
 }
 
 export function ProfileHero() {
@@ -51,7 +75,9 @@ export function ProfileHero() {
           {profile.name}
         </h1>
         <p className="mt-4 max-w-2xl text-xl leading-8 text-slate-700">{profile.title}</p>
-        <p className="mt-5 max-w-2xl text-base leading-8 text-slate-600">{profile.summary}</p>
+        <p className="mt-5 max-w-2xl text-base leading-8 text-slate-600">
+          <RichText segments={profile.summaryRich} fallback={profile.summary} />
+        </p>
 
         <div className="mt-7 flex flex-wrap gap-2">
           {profile.interests.map((interest) => (

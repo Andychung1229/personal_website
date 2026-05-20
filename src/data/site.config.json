@@ -16,7 +16,19 @@
       "alt": "Kawai Chung profile photo"
     },
     "summary": "I am a first-year MPhil student in Computer Science and Engineering at the Hong Kong University of Science and Technology, supervised by Prof. Yangqiu Song. My research focuses on large language models, reasoning tasks, and natural language processing.",
-    "interests": ["Large Language Models", "Reasoning", "Natural Language Processing", "Theory of Mind"],
+    "summaryRich": [
+      {
+        "text": "I am a first-year MPhil student in Computer Science and Engineering at the Hong Kong University of Science and Technology, supervised by "
+      },
+      {
+        "text": "Prof. Yangqiu Song",
+        "href": "https://www.cse.ust.hk/~yqsong/"
+      },
+      {
+        "text": ". My research focuses on large language models, reasoning tasks, and natural language processing."
+      }
+    ],
+    "interests": ["Large Language Models", "Reasoning", "Natural Language Processing", "Agent"],
     "links": [
       {
         "label": "Email",
@@ -108,8 +120,8 @@
           "title": "The Hong Kong University of Science and Technology",
           "subtitle": "BEng in Computer Science and Engineering with Extended Major in Artificial Intelligence",
           "period": "2021 - 2025",
-          "description": "First Class Honors graduate.",
-          "tags": ["First Class Honors", "Extended Major in AI"]
+          "description": "BEng graduate with Extended Major in Artificial Intelligence.",
+          "tags": ["Extended Major in AI"]
         }
       ]
     },
@@ -121,6 +133,11 @@
       "eyebrow": "Recognition",
       "title": "Honors and Awards",
       "items": [
+        {
+          "title": "First Class Honors",
+          "subtitle": "BEng in Computer Science and Engineering, HKUST",
+          "period": "2025"
+        },
         {
           "title": "Dean's List",
           "subtitle": "The Hong Kong University of Science and Technology",
@@ -152,15 +169,15 @@
     {
       "id": "projects",
       "type": "projects",
-      "enabled": true,
+      "enabled": false,
       "navLabel": "Projects",
       "eyebrow": "Builds",
       "title": "Projects",
       "items": [
         {
           "title": "XToM",
-          "description": "A multilingual benchmark for evaluating Theory of Mind reasoning in large language models across diverse linguistic contexts.",
-          "tags": ["LLMs", "Reasoning", "Theory of Mind", "Multilingual NLP"],
+          "description": "A multilingual benchmark for evaluating agent reasoning in large language models across diverse linguistic contexts.",
+          "tags": ["LLMs", "Reasoning", "Agent", "Multilingual NLP"],
           "links": [
             {
               "label": "paper",
@@ -177,12 +194,12 @@
       "navLabel": "About",
       "eyebrow": "About",
       "title": "Research Profile",
-      "body": "I am interested in how large language models reason, where their reasoning succeeds or fails, and how NLP evaluation can better capture model behavior. My current work is centered on reasoning tasks for LLMs, including multilingual Theory of Mind evaluation.",
+      "body": "I am interested in how large language models reason, where their reasoning succeeds or fails, and how NLP evaluation can better capture model behavior. My current work is centered on reasoning tasks for LLMs, including multilingual agent evaluation.",
       "sideTitle": "Current Focus",
       "sideItems": [
         "Large language models",
         "Reasoning tasks in NLP",
-        "Multilingual Theory of Mind",
+        "Agent reasoning",
         "Evaluation of model behavior"
       ]
     }

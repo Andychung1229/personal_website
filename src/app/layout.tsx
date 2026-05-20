@@ -4,7 +4,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: siteConfig.site.title,
-  description: siteConfig.site.description
+  description: siteConfig.site.description,
+  icons: {
+    icon: "/images/icon_image.jpeg",
+    apple: "/images/icon_image.jpeg"
+  }
 };
 
 export default function RootLayout({

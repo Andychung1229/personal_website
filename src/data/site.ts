@@ -6,6 +6,11 @@ export type ProfileLink = {
   icon?: string;
 };
 
+export type RichTextSegment = {
+  text: string;
+  href?: string;
+};
+
 export type AnnouncementItem = {
   date: string;
   text: string;
@@ -103,6 +108,7 @@ export type SiteConfig = {
       alt: string;
     };
     summary: string;
+    summaryRich?: RichTextSegment[];
     interests: string[];
     links: ProfileLink[];
   };
