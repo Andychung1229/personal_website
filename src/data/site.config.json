@@ -1,47 +1,32 @@
 {
   "site": {
-    "navTitle": "Personal Website",
-    "title": "Your Name | Personal Website",
-    "description": "Personal academic website for research, publications, and announcements.",
-    "footer": "© 2026 Your Name. Built with Next.js."
+    "navTitle": "Kawai Chung",
+    "title": "Kawai Chung | Personal Website",
+    "description": "Personal academic website for Kawai Chung, MPhil student at HKUST CSE working on LLMs, reasoning, and NLP.",
+    "footer": "© 2026 Kawai Chung. Built with Next.js."
   },
   "profile": {
-    "name": "Your Name",
-    "title": "Researcher in AI, Systems, and Human-Centered Computing",
-    "affiliation": "Your University / Lab",
+    "name": "Kawai Chung",
+    "title": "First-year MPhil student at HKUST CSE",
+    "affiliation": "HKUST CSE · Supervised by Prof. Yangqiu Song",
     "location": "Hong Kong",
-    "email": "your.email@example.com",
+    "email": "kwchungac@connect.ust.hk",
     "photo": {
       "src": "",
-      "alt": "Profile photo"
+      "alt": "Kawai Chung profile photo"
     },
-    "summary": "I work on reliable, useful AI systems. My research interests include AI safety, model evaluation, personalization, and human-AI interaction.",
-    "interests": ["AI Safety", "Model Evaluation", "Personalization", "Human-AI Interaction"],
+    "summary": "I am a first-year MPhil student in Computer Science and Engineering at the Hong Kong University of Science and Technology, supervised by Prof. Yangqiu Song. My research focuses on large language models, reasoning tasks, and natural language processing.",
+    "interests": ["Large Language Models", "Reasoning", "Natural Language Processing", "Theory of Mind"],
     "links": [
       {
         "label": "Email",
-        "href": "mailto:your.email@example.com",
+        "href": "mailto:kwchungac@connect.ust.hk",
         "icon": "mail"
       },
       {
         "label": "Scholar",
-        "href": "https://scholar.google.com/",
+        "href": "https://scholar.google.com/scholar?q=%22Kawai+Chung%22+HKUST",
         "icon": "scholar"
-      },
-      {
-        "label": "GitHub",
-        "href": "https://github.com/your-handle",
-        "icon": "github"
-      },
-      {
-        "label": "LinkedIn",
-        "href": "https://www.linkedin.com/",
-        "icon": "linkedin"
-      },
-      {
-        "label": "CV",
-        "href": "/cv.pdf",
-        "icon": "file"
       }
     ]
   },
@@ -53,22 +38,23 @@
       "navLabel": "News",
       "eyebrow": "News",
       "title": "Announcements",
-      "description": "Future paper acceptances, awards, talks, and releases will live here.",
+      "description": "Paper acceptances, teaching updates, and research news.",
       "items": [
         {
-          "date": "May 2026",
-          "text": "Personal website first version launched.",
-          "tag": "Website"
+          "date": "2026",
+          "text": "XToM was selected as an ACL 2026 Oral paper.",
+          "tag": "Publication",
+          "link": "https://arxiv.org/abs/2506.02461"
         },
         {
-          "date": "Coming soon",
-          "text": "Paper XXX accepted to ACL 2026.",
-          "tag": "Publication"
+          "date": "Spring 2026",
+          "text": "Teaching Assistant for HKUST COMP 2011.",
+          "tag": "Teaching"
         },
         {
-          "date": "Coming soon",
-          "text": "New project page and code release will be announced here.",
-          "tag": "Project"
+          "date": "2025",
+          "text": "Started MPhil study in Computer Science and Engineering at HKUST.",
+          "tag": "Education"
         }
       ]
     },
@@ -78,40 +64,88 @@
       "enabled": true,
       "navLabel": "Publications",
       "eyebrow": "Research",
-      "title": "Selected Publications",
+      "title": "Publications",
       "items": [
         {
-          "title": "Paper XXX",
-          "authors": "Your Name, Collaborator One, Collaborator Two",
-          "venue": "ACL 2026",
+          "title": "XToM: Exploring the Multilingual Theory of Mind for Large Language Models",
+          "authors": "Chunkit Chan, Yauwai Yim, Hongchuan Zeng, Zhiying Zou, Xinyuan Cheng, Zhifan Sun, Zheye Deng, Kawai Chung, Yuzhuo Ao, Yixiang Fan, Cheng Jiayang, Ercong Nie, Ginny Y. Wong, Helmut Schmid, Hinrich Schütze, Simon See, and Yangqiu Song",
+          "venue": "ACL 2026 Oral / CoRR abs/2506.02461",
           "status": "Accepted",
           "year": "2026",
           "links": [
             {
               "label": "paper",
-              "href": "#"
+              "href": "https://arxiv.org/abs/2506.02461"
             },
             {
-              "label": "code",
-              "href": "#"
-            },
-            {
-              "label": "project",
-              "href": "#"
+              "label": "pdf",
+              "href": "https://arxiv.org/pdf/2506.02461"
             },
             {
               "label": "bibtex",
-              "href": "#"
+              "href": "https://dblp.org/rec/journals/corr/abs-2506-02461.bib"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "type": "timeline",
+      "enabled": true,
+      "navLabel": "Education",
+      "eyebrow": "Background",
+      "title": "Education",
+      "items": [
+        {
+          "title": "The Hong Kong University of Science and Technology",
+          "subtitle": "MPhil in Computer Science and Engineering",
+          "period": "2025 - Present",
+          "description": "Supervised by Prof. Yangqiu Song. Research focus: large language models, reasoning tasks, and natural language processing.",
+          "tags": ["HKUST CSE", "MPhil", "LLM Reasoning"]
         },
         {
-          "title": "Research Project in Progress",
-          "authors": "Your Name",
-          "venue": "Manuscript in preparation",
-          "status": "In Progress",
-          "year": "2026",
-          "links": []
+          "title": "The Hong Kong University of Science and Technology",
+          "subtitle": "BEng in Computer Science and Engineering with Extended Major in Artificial Intelligence",
+          "period": "2021 - 2025",
+          "description": "First Class Honors graduate.",
+          "tags": ["First Class Honors", "Extended Major in AI"]
+        }
+      ]
+    },
+    {
+      "id": "honors",
+      "type": "timeline",
+      "enabled": true,
+      "navLabel": "Honors",
+      "eyebrow": "Recognition",
+      "title": "Honors and Awards",
+      "items": [
+        {
+          "title": "Dean's List",
+          "subtitle": "The Hong Kong University of Science and Technology",
+          "period": "2023 - 2024"
+        },
+        {
+          "title": "Dean's List",
+          "subtitle": "The Hong Kong University of Science and Technology",
+          "period": "2024 - 2025"
+        }
+      ]
+    },
+    {
+      "id": "teaching",
+      "type": "timeline",
+      "enabled": true,
+      "navLabel": "Teaching",
+      "eyebrow": "Teaching",
+      "title": "Teaching",
+      "items": [
+        {
+          "title": "COMP 2011",
+          "subtitle": "Teaching Assistant, HKUST",
+          "period": "Spring 2026",
+          "description": "Served as Teaching Assistant for COMP 2011."
         }
       ]
     },
@@ -124,21 +158,15 @@
       "title": "Projects",
       "items": [
         {
-          "title": "Personal Research Website",
-          "description": "A clean academic homepage for publications, project updates, and future paper announcements.",
-          "tags": ["Next.js", "TailwindCSS", "Academic"],
+          "title": "XToM",
+          "description": "A multilingual benchmark for evaluating Theory of Mind reasoning in large language models across diverse linguistic contexts.",
+          "tags": ["LLMs", "Reasoning", "Theory of Mind", "Multilingual NLP"],
           "links": [
             {
-              "label": "code",
-              "href": "#"
+              "label": "paper",
+              "href": "https://arxiv.org/abs/2506.02461"
             }
           ]
-        },
-        {
-          "title": "Research Direction Placeholder",
-          "description": "A future project area for demos, datasets, paper links, and short technical summaries.",
-          "tags": ["AI", "Evaluation", "Research"],
-          "links": []
         }
       ]
     },
@@ -149,13 +177,13 @@
       "navLabel": "About",
       "eyebrow": "About",
       "title": "Research Profile",
-      "body": "This section is reserved for a fuller biography: your current program, lab, advisor, research agenda, and what kinds of problems you want to work on. We can update it after you provide your exact academic background.",
-      "sideTitle": "Planned Sections",
+      "body": "I am interested in how large language models reason, where their reasoning succeeds or fails, and how NLP evaluation can better capture model behavior. My current work is centered on reasoning tasks for LLMs, including multilingual Theory of Mind evaluation.",
+      "sideTitle": "Current Focus",
       "sideItems": [
-        "Education and affiliations",
-        "Selected honors and awards",
-        "Teaching and service",
-        "Collaborators and lab links"
+        "Large language models",
+        "Reasoning tasks in NLP",
+        "Multilingual Theory of Mind",
+        "Evaluation of model behavior"
       ]
     }
   ]

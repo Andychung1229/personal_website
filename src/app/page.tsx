@@ -4,6 +4,7 @@ import { NavBar } from "@/components/NavBar";
 import { ProfileHero } from "@/components/ProfileHero";
 import { ProjectGrid } from "@/components/ProjectGrid";
 import { PublicationList } from "@/components/PublicationList";
+import { TimelineSection } from "@/components/TimelineSection";
 import { enabledSections, siteConfig } from "@/data/site";
 
 function renderSection(section: (typeof enabledSections)[number]) {
@@ -40,6 +41,18 @@ function renderSection(section: (typeof enabledSections)[number]) {
         eyebrow={section.eyebrow}
         title={section.title}
         items={"items" in section ? section.items : []}
+      />
+    );
+  }
+
+  if (section.type === "timeline") {
+    return (
+      <TimelineSection
+        key={section.id}
+        id={section.id}
+        eyebrow={section.eyebrow}
+        title={section.title}
+        items={section.items}
       />
     );
   }

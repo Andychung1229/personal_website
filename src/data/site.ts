@@ -34,6 +34,14 @@ export type ProjectItem = {
   links?: LinkItem[];
 };
 
+export type TimelineItem = {
+  title: string;
+  subtitle?: string;
+  period?: string;
+  description?: string;
+  tags?: string[];
+};
+
 type BaseSection = {
   id: string;
   enabled: boolean;
@@ -58,6 +66,11 @@ export type ProjectSection = BaseSection & {
   items: ProjectItem[];
 };
 
+export type TimelineSectionConfig = BaseSection & {
+  type: "timeline";
+  items: TimelineItem[];
+};
+
 export type AboutSectionConfig = BaseSection & {
   type: "about";
   body?: string;
@@ -65,7 +78,12 @@ export type AboutSectionConfig = BaseSection & {
   sideItems?: string[];
 };
 
-export type SiteSection = AnnouncementSection | PublicationSection | ProjectSection | AboutSectionConfig;
+export type SiteSection =
+  | AnnouncementSection
+  | PublicationSection
+  | ProjectSection
+  | TimelineSectionConfig
+  | AboutSectionConfig;
 
 export type SiteConfig = {
   site: {
