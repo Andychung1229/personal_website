@@ -5,6 +5,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: siteConfig.site.title,
   description: siteConfig.site.description,
+  verification: {
+    google: "y60SY33y7DfByknC6dPX685emqv1i1eLJf75wzmrn5E"
+  },
   icons: {
     icon: "/images/site-icon.png",
     apple: "/images/site-icon.png"
