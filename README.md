@@ -2,6 +2,12 @@
 
 Config-driven academic personal website built with Next.js and TailwindCSS.
 
+The website is already deployed at:
+
+```text
+https://chungkawai.com
+```
+
 ## Edit Content
 
 Most website content lives in:
@@ -11,6 +17,8 @@ src/data/site.config.json
 ```
 
 Use this file to update the profile, links, announcements, publications, projects, section order, and section visibility.
+
+After editing, commit and push the changes to the `main` branch. The deployed site at `https://chungkawai.com` updates from this repository.
 
 ## Development
 
@@ -31,9 +39,4 @@ The site is configured as a static export. The production files are generated in
 
 ## Custom Domain
 
-When you buy a domain, connect it through your hosting provider:
-
-- Vercel or Netlify: add the domain in the provider dashboard, then follow their DNS records in GoDaddy.
-- GitHub Pages: add the domain in repository settings, then set GoDaddy DNS records to GitHub Pages.
-
-No domain-specific value is hardcoded in this project yet, so it is safe to connect a domain later.
+The custom domain is configured as `chungkawai.com` in `public/CNAME`. Do not remove this file unless the deployment domain changes.

@@ -1,19 +1,19 @@
 {
   "site": {
-    "navTitle": "Kawai Chung",
-    "title": "Kawai Chung | Personal Website",
-    "description": "Personal academic website for Kawai Chung, MPhil student at HKUST CSE working on LLMs, reasoning, and NLP.",
-    "footer": "© 2026 Kawai Chung. Built with Next.js."
+    "navTitle": "Chung Ka Wai",
+    "title": "Chung Ka Wai | Personal Website",
+    "description": "Personal academic website for Chung Ka Wai, MPhil student at HKUST CSE working on LLMs, reasoning, and NLP.",
+    "footer": "© 2026 Chung Ka Wai. Built with Next.js."
   },
   "profile": {
-    "name": "Kawai Chung",
+    "name": "Chung Ka Wai",
     "title": "First-year MPhil student at HKUST CSE",
     "affiliation": "HKUST CSE · Supervised by Prof. Yangqiu Song",
     "location": "Hong Kong",
     "email": "kwchungac@connect.ust.hk",
     "photo": {
-      "src": "",
-      "alt": "Kawai Chung profile photo"
+      "src": "/images/site-icon.png",
+      "alt": "Chung Ka Wai personal icon"
     },
     "summary": "I am a first-year MPhil student in Computer Science and Engineering at the Hong Kong University of Science and Technology, supervised by Prof. Yangqiu Song. My research focuses on large language models, reasoning tasks, and natural language processing.",
     "summaryRich": [
