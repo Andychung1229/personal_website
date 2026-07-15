@@ -74,10 +74,6 @@
   outline-offset: 3px;
 }
 
-.page button {
-  color: inherit;
-}
-
 .skipLink {
   position: fixed;
   z-index: 200;
@@ -507,7 +503,8 @@
   color: var(--ink);
 }
 
-.tabButtonActive {
+.tabButtonActive,
+.tabButtonActive:hover {
   background: var(--ink);
   box-shadow: 0 6px 15px rgba(22, 39, 65, 0.18);
   color: var(--white);
