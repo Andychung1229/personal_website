@@ -992,6 +992,162 @@
   font-weight: 950;
 }
 
+.routeMapCard {
+  overflow: hidden;
+  margin-top: 1rem;
+  border: 1px solid rgba(24, 94, 163, 0.18);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.routeMapHeader,
+.routeMapFooter {
+  display: flex;
+  gap: 1rem;
+  padding: 0.85rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.routeMapEyebrow {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  color: var(--blue-deep);
+  font-size: 0.68rem;
+  font-weight: 950;
+  letter-spacing: 0.13em;
+}
+
+.routeMapTitle {
+  margin: 0.16rem 0 0;
+  color: var(--ink);
+  font-size: 0.94rem;
+  font-weight: 950;
+}
+
+.routeMapLegend,
+.routeMapActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.routeMapLegendItem {
+  display: inline-flex;
+  gap: 0.38rem;
+  align-items: center;
+  color: var(--ink-soft);
+  font-size: 0.7rem;
+  font-weight: 850;
+}
+
+.routeMapLegendItem i {
+  width: 1.6rem;
+  border-top: 4px solid var(--route-color);
+  border-radius: 999px;
+}
+
+.routeMapLegendItem i[data-dashed="true"] {
+  border-top-style: dashed;
+}
+
+.routeMapFrame {
+  position: relative;
+  padding: 0 0.75rem;
+}
+
+.routeMapCanvas {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  border: 1px solid rgba(24, 94, 163, 0.18);
+  border-radius: 14px;
+  background: #edf5f8;
+}
+
+.routeMapLoading {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--ink-soft);
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.routeMapFooter {
+  align-items: flex-start;
+}
+
+.routeMapFooter p {
+  display: flex;
+  max-width: 34rem;
+  gap: 0.4rem;
+  margin: 0;
+  align-items: flex-start;
+  color: var(--ink-soft);
+  font-size: 0.7rem;
+  line-height: 1.55;
+}
+
+.routeMapFooter p svg {
+  flex: 0 0 auto;
+  margin-top: 0.12rem;
+  color: var(--blue);
+}
+
+.routeMapMarkerShell {
+  border: 0;
+  background: transparent;
+}
+
+.routeMapMarkerShell span {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  border: 3px solid var(--white);
+  border-radius: 999px;
+  place-items: center;
+  background: var(--marker-color);
+  box-shadow: 0 3px 10px rgba(12, 37, 67, 0.32);
+  color: var(--white);
+  font-size: 0.72rem;
+  font-weight: 950;
+  line-height: 1;
+}
+
+.routeMapCanvas :global(.leaflet-control-zoom),
+.routeMapCanvas :global(.leaflet-control-attribution) {
+  border: 0;
+  box-shadow: 0 4px 16px rgba(12, 37, 67, 0.16);
+}
+
+.routeMapCanvas :global(.leaflet-control-zoom a) {
+  color: var(--ink);
+}
+
+.routeMapCanvas :global(.leaflet-control-attribution) {
+  border-radius: 7px 0 0;
+  background: rgba(255, 255, 255, 0.88);
+  font-size: 0.58rem;
+}
+
+.routeMapCanvas :global(.leaflet-tooltip) {
+  border: 0;
+  border-radius: 9px;
+  box-shadow: 0 4px 16px rgba(12, 37, 67, 0.2);
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 0.7rem;
+  font-weight: 850;
+}
+
 .comparisonGrid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2325,6 +2481,30 @@
     font-size: 0.7rem;
   }
 
+  .routeMapHeader,
+  .routeMapFooter {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .routeMapLegend,
+  .routeMapActions {
+    justify-content: flex-start;
+  }
+
+  .routeMapCanvas {
+    height: 285px;
+  }
+
+  .routeMapActions,
+  .routeMapActions .mapButton {
+    width: 100%;
+  }
+
+  .routeMapActions .mapButton {
+    justify-content: center;
+  }
+
   .comparisonHeader {
     display: block;
   }
@@ -2449,6 +2629,7 @@
   }
 
   .dayCard,
+  .routeMapCard,
   .spotCard,
   .restaurantCard,
   .lodgingCard,

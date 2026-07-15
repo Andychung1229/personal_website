@@ -398,6 +398,7 @@ export const riskNotes = [
 ];
 
 export const sources: SourceLink[] = [
+  { label: "OpenStreetMap 地圖資料與授權", url: "https://www.openstreetmap.org/copyright", group: "地圖" },
   { label: "動畫官方 23 點聖地巡禮地圖", url: "https://makeine-anime.com/special/map/", group: "巡禮" },
   { label: "動畫官方 Movie／吉田神社巡禮", url: "https://makeine-anime.com/movie/", group: "巡禮" },
   { label: "豊鉄公共交通巡禮指引", url: "https://www.toyotetsu.jp/news/01256.html", group: "交通" },

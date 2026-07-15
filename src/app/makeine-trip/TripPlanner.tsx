@@ -41,6 +41,7 @@ import {
   pilgrimageSpots,
   sources
 } from "./tripData";
+import { DayRouteMap } from "./DayRouteMap";
 import imageCreditData from "../../../public/images/makeine-trip/credits.json";
 import styles from "./trip.module.css";
 import {
@@ -918,6 +919,11 @@ export function TripPlanner() {
                         </span>
                       ))}
                     </div>
+                    <DayRouteMap
+                      active={activeTab === "itinerary"}
+                      day={day.day}
+                      plan={plan}
+                    />
                     {day.notes?.map((note) => (
                       <p className={styles.sourceNote} key={note}>※ {note}</p>
                     ))}
