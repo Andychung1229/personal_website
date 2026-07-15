@@ -8,6 +8,19 @@ The website is already deployed at:
 https://chungkawai.com
 ```
 
+## Makeine Trip Guide
+
+The interactive Traditional Chinese trip guide is available at:
+
+```text
+https://chungkawai.com/makeine-trip/
+```
+
+Its source lives in `src/app/makeine-trip/`, with locally hosted, attributed images in
+`public/images/makeine-trip/`. The production build exports the page to
+`out/makeine-trip/index.html`. Push the repository to `main` and the existing GitHub
+Pages workflow will publish the page together with its scripts, styles, and images.
+
 ## Edit Content
 
 Most website content lives in:
