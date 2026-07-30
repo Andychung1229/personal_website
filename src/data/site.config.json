@@ -54,6 +54,12 @@
       "items": [
         {
           "date": "2026",
+          "text": "MultivationBench is now available on arXiv.",
+          "tag": "Publication",
+          "link": "https://arxiv.org/abs/2607.26465"
+        },
+        {
+          "date": "2026",
           "text": "XToM was selected as an ACL 2026 Oral paper.",
           "tag": "Publication",
           "link": "https://arxiv.org/abs/2506.02461"
@@ -78,6 +84,31 @@
       "eyebrow": "Research",
       "title": "Publications",
       "items": [
+        {
+          "title": "MultivationBench: A Benchmark for Multimodal Sequential Motivation Reasoning",
+          "authors": "Kawai Chung, Chunkit Chan, Yauwai Yim, Yuxuan Liu, Haochen Shi, Weiqi Wang, Qing Zong, Tianshi Zheng, Yixuan Fu, Kai Chung Wong, Hao Liang, Yifan Gao, Xi Yang, Janet Hui-wen Hsiao, and Yangqiu Song",
+          "venue": "arXiv:2607.26465",
+          "status": "Preprint",
+          "year": "2026",
+          "links": [
+            {
+              "label": "paper",
+              "href": "https://arxiv.org/abs/2607.26465"
+            },
+            {
+              "label": "github",
+              "href": "https://github.com/HKUST-KnowComp/MultivationBench/blob/main/README.md"
+            },
+            {
+              "label": "pdf",
+              "href": "https://arxiv.org/pdf/2607.26465"
+            },
+            {
+              "label": "bibtex",
+              "href": "https://arxiv.org/bibtex/2607.26465"
+            }
+          ]
+        },
         {
           "title": "XToM: Exploring the Multilingual Theory of Mind for Large Language Models",
           "authors": "Chunkit Chan, Yauwai Yim, Hongchuan Zeng, Zhiying Zou, Xinyuan Cheng, Zhifan Sun, Zheye Deng, Kawai Chung, Yuzhuo Ao, Yixiang Fan, Cheng Jiayang, Ercong Nie, Ginny Y. Wong, Helmut Schmid, Hinrich Schütze, Simon See, and Yangqiu Song",
