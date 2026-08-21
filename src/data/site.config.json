@@ -53,8 +53,8 @@
       "description": "Paper acceptances, teaching updates, and research news.",
       "items": [
         {
-          "date": "2026",
-          "text": "MultivationBench is now available on arXiv.",
+          "date": "August 2026",
+          "text": "MultivationBench was accepted to Findings of EMNLP 2026.",
           "tag": "Publication",
           "link": "https://arxiv.org/abs/2607.26465"
         },
@@ -87,8 +87,8 @@
         {
           "title": "MultivationBench: A Benchmark for Multimodal Sequential Motivation Reasoning",
           "authors": "Kawai Chung, Chunkit Chan, Yauwai Yim, Yuxuan Liu, Haochen Shi, Weiqi Wang, Qing Zong, Tianshi Zheng, Yixuan Fu, Kai Chung Wong, Hao Liang, Yifan Gao, Xi Yang, Janet Hui-wen Hsiao, and Yangqiu Song",
-          "venue": "arXiv:2607.26465",
-          "status": "Preprint",
+          "venue": "Findings of EMNLP 2026",
+          "status": "Accepted",
           "year": "2026",
           "links": [
             {
