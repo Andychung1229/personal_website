@@ -21,6 +21,18 @@ Its source lives in `src/app/makeine-trip/`, with locally hosted, attributed ima
 `out/makeine-trip/index.html`. Push the repository to `main` and the existing GitHub
 Pages workflow will publish the page together with its scripts, styles, and images.
 
+## Central Europe Autumn Guide
+
+The independent static HTML guide is available at `/europe-trip/`.
+Its editable HTML, CSS, JavaScript and original SVG icon are in `public/europe-trip/`.
+The existing Next.js build copies this folder into `out/europe-trip/` for GitHub Pages.
+
+The page contains provisional public travel dates and source-linked information,
+dated accommodation price snapshots, accessible city tabs, and a browser-local
+checklist. It contains no traveler names, receipts, or private booking records.
+The page is public, with a `noindex` request; this is not access control. Recheck
+transport, rates, availability and cancellation terms before booking.
+
 ## Edit Content
 
 Most website content lives in:
