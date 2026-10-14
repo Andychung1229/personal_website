@@ -7,7 +7,7 @@
   },
   "profile": {
     "name": "Chung Ka Wai",
-    "title": "First-year MPhil student at HKUST CSE",
+    "title": "Second-year MPhil student at HKUST CSE",
     "affiliation": "HKUST CSE · Supervised by Prof. Yangqiu Song",
     "location": "Hong Kong",
     "email": "kwchungac@connect.ust.hk",
@@ -15,10 +15,10 @@
       "src": "/images/icon_image.jpeg",
       "alt": "Chung Ka Wai profile photo"
     },
-    "summary": "I am a first-year MPhil student in Computer Science and Engineering at the Hong Kong University of Science and Technology, supervised by Prof. Yangqiu Song. My research focuses on large language models, reasoning tasks, and natural language processing.",
+    "summary": "I am a second-year MPhil student in Computer Science and Engineering at the Hong Kong University of Science and Technology, supervised by Prof. Yangqiu Song. My research focuses on large language models, reasoning tasks, and natural language processing.",
     "summaryRich": [
       {
-        "text": "I am a first-year MPhil student in Computer Science and Engineering at the Hong Kong University of Science and Technology, supervised by "
+        "text": "I am a second-year MPhil student in Computer Science and Engineering at the Hong Kong University of Science and Technology, supervised by "
       },
       {
         "text": "Prof. Yangqiu Song",
@@ -57,6 +57,18 @@
           "text": "Jev-ToM is now available on arXiv.",
           "tag": "Publication",
           "link": "https://arxiv.org/abs/2610.18610"
+        },
+        {
+          "date": "October 2026",
+          "text": "Jev-Guard is now available on arXiv.",
+          "tag": "Publication",
+          "link": "https://arxiv.org/abs/2610.18326"
+        },
+        {
+          "date": "October 2026",
+          "text": "SkillScriptBench is now available on arXiv.",
+          "tag": "Publication",
+          "link": "https://arxiv.org/abs/2610.04008"
         },
         {
           "date": "August 2026",
@@ -112,6 +124,48 @@
             {
               "label": "bibtex",
               "href": "https://arxiv.org/bibtex/2610.18610"
+            }
+          ]
+        },
+        {
+          "title": "Jev-Guard: Fast Routing and Auditing Agent Actions over Editable Policy Trees",
+          "authors": "Wenbin Hu, Huihao Jing, Haochen Shi, Yuxuan Liu, Changxuan Fan, Sirui Zhang, Kawai Chung, Hanyu Yang, Zhenhuan Wang, Ziyi Chen, Haoran Li, and Yangqiu Song",
+          "venue": "arXiv:2610.18326",
+          "status": "Preprint",
+          "year": "2026",
+          "links": [
+            {
+              "label": "paper",
+              "href": "https://arxiv.org/abs/2610.18326"
+            },
+            {
+              "label": "pdf",
+              "href": "https://arxiv.org/pdf/2610.18326"
+            },
+            {
+              "label": "bibtex",
+              "href": "https://arxiv.org/bibtex/2610.18326"
+            }
+          ]
+        },
+        {
+          "title": "SkillScriptBench: Benchmarking Self-Evolution of Executable Agent Skill Packages Beyond Markdown",
+          "authors": "Yuxuan Liu, Haoran Li, Yuhao Zhang, Jiahe Guo, Hongyu Luo, Wenbin Hu, Huihao Jing, Kawai Chung, Junle Chen, Changxuan Fan, Qing Zong, Lingyun Xie, and Yangqiu Song",
+          "venue": "arXiv:2610.04008",
+          "status": "Preprint",
+          "year": "2026",
+          "links": [
+            {
+              "label": "paper",
+              "href": "https://arxiv.org/abs/2610.04008"
+            },
+            {
+              "label": "pdf",
+              "href": "https://arxiv.org/pdf/2610.04008"
+            },
+            {
+              "label": "bibtex",
+              "href": "https://arxiv.org/bibtex/2610.04008"
             }
           ]
         },
