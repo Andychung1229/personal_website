@@ -1,19 +1,6 @@
 "use strict";
 (() => {
   const $ = (id) => document.getElementById(id);
-  const routeButtons = [...document.querySelectorAll('[data-route]')];
-  routeButtons.forEach(button => button.addEventListener('click', () => {
-    const extended = button.dataset.route === 'extended';
-    routeButtons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-    $('city-count').textContent = extended ? '4 CITIES' : '3 CITIES';
-    $('salzburg-map').setAttribute('visibility', extended ? 'visible' : 'hidden');
-    $('return-route').setAttribute('d', extended ? 'M98 97L215 218Q360 323 510 228' : 'M98 97Q297 355 510 228');
-    $('map-title').textContent = `路線示意：布達佩斯往維也納，再到慕尼黑${extended ? '，再經薩爾斯堡' : ''}，最後返回布達佩斯。非按比例地圖。`;
-    $('route-description').textContent = extended ? '適合多一至兩晚：慕尼黑 → 薩爾斯堡 → 維也納方向 → 布達佩斯。先核對返程餘裕。' : '較簡單嘅版本：布達佩斯 → 維也納 → 慕尼黑 → 布達佩斯。返程車次另按日期核對。';
-    $('last-number').textContent = extended ? '04' : '↩';
-    $('last-city').textContent = extended ? '薩爾斯堡，再回程' : '返程前回到布達佩斯';
-    $('last-description').textContent = extended ? '11 月 1 日起可考慮加一至兩晚山城；經維也納方向返布達佩斯，未必要再喺維也納住一晚。' : '預留國際航班前一晚喺布達佩斯，減低長途火車延誤影響接機嘅風險。';
-  }));
   const tabs = [...document.querySelectorAll('[role="tab"]')];
   function selectTab(tab, focus = false) {
     tabs.forEach(item => {
