@@ -59,6 +59,12 @@
       "items": [
         {
           "date": "November 2026",
+          "text": "RoboTeam is now available on arXiv.",
+          "tag": "Publication",
+          "link": "https://arxiv.org/abs/2611.22138"
+        },
+        {
+          "date": "November 2026",
           "text": "MuSeToM is now available on arXiv.",
           "tag": "Publication",
           "link": "https://arxiv.org/abs/2611.16662"
@@ -113,6 +119,27 @@
       "eyebrow": "Research",
       "title": "Publications",
       "items": [
+        {
+          "title": "RoboTeam: Benchmarking Vision-Based Multi-Agent Control of Many Robot Arms in Real Time",
+          "authors": "Changxuan Fan, Zhongwei Xie, Boyi Zhang, Shaoli Hu, Chang Xu, Xiyu Ren, Yufei Li, Qiao Xiao, Huihao Jing, Kawai Chung, Wenbin Hu, Hongyu Luo, Lingyun Xie, Yisen Gao, Chunyang Li, Haoyu Huang, Wuganjing Song, Yuxuan Liu, Chiu Yeung Tang, Fangneng Zhan, and Xi Yang",
+          "venue": "arXiv:2611.22138",
+          "status": "Preprint",
+          "year": "2026",
+          "links": [
+            {
+              "label": "paper",
+              "href": "https://arxiv.org/abs/2611.22138"
+            },
+            {
+              "label": "pdf",
+              "href": "https://arxiv.org/pdf/2611.22138"
+            },
+            {
+              "label": "bibtex",
+              "href": "https://arxiv.org/bibtex/2611.22138"
+            }
+          ]
+        },
         {
           "title": "MuSeToM: Multi-Sensory Evaluation of Belief Revision with Textual Cues Across Six Senses",
           "authors": "Chunkit Chan, Kawai Chung, Sze Heng Douglas Kwok, Yuxuan Liu, Yauwai Yim, Tianshi Zheng, Haochen Shi, Qing Zong, Wong Kai Chung, Pak Hin Lau, Calvin Yang, Yifan Gao, Xiaoman Pan, Ginny Wong, Simon See, and Yangqiu Song",
