@@ -36,6 +36,11 @@
         "icon": "mail"
       },
       {
+        "label": "CV",
+        "href": "/Ka_Wai_Chung_CV.pdf",
+        "icon": "file"
+      },
+      {
         "label": "Scholar",
         "href": "https://scholar.google.com/citations?user=q6QU2yIAAAAJ&hl=zh-TW",
         "icon": "scholar"
